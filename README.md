@@ -13,7 +13,7 @@ The script is designed to work seamlessly, and if done properly by the developer
 - Python and Pyinstaller installed on your machine
 
 ### Steps
-1. Open your Kontakt instrument, and start creating, naming and saving snapshots (Camera icon, on the upper box). When you create your first snapshot, Kontakt will automatically create a folder with the same name as your instrument.
+1. Open your Kontakt instrument, and start creating, naming and saving snapshots (Camera icon, on the upper box). When you create your first snapshot, Kontakt will automatically create a folder with the same name as your instrument in the following directories.
    - MAC: `/Users/username/Documents/Native Instruments/User Content/Kontakt`
    - WINDOWS: `C:\Users\username\My Documents\Native Instruments\User Content\Kontakt`
 
