@@ -20,7 +20,10 @@ else:
 instrumentName = #presets_folder_name
 
 # current script dir
-current_dir = os.path.dirname(os.path.abspath(__file__))
+if getattr(sys, 'frozen', False):
+    current_dir = os.path.dirname(sys.executable)
+else:
+    current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # presets source dir
 presets_dir_src = os.path.join(current_dir, instrumentName)
