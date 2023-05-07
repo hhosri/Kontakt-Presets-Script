@@ -20,6 +20,7 @@ else:
 instrumentName = #presets_folder_name
 
 # current script dir
+# checks if we are running the program with a script or with an executable, and gets the appropriate path
 if getattr(sys, 'frozen', False):
     current_dir = os.path.dirname(sys.executable)
 else:
